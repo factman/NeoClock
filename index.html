@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neo Clock | Neumorphism Clock</title>
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/clock.css" />
+</head>
+
+<body>
+  <div class="stage rise">
+    <div class="analog-clock rise-inset">
+      <div class="numbers">
+        <p class="num">12</p>
+        <p class="num">1</p>
+        <p class="num">2</p>
+        <p class="num">3</p>
+        <p class="num">4</p>
+        <p class="num">5</p>
+        <p class="num">6</p>
+        <p class="num">7</p>
+        <p class="num">8</p>
+        <p class="num">9</p>
+        <p class="num">10</p>
+        <p class="num">11</p>
+      </div>
+      <div class="controls">
+        <div class="digital">
+          <div id="d-hour" class="box">00</div>
+          <div class="separator">&nbsp;</div>
+          <div id="d-minute" class="box">00</div>
+          <div class="separator">&nbsp;</div>
+          <div id="d-daylight" class="box">AM</div>
+        </div>
+        <div id="minute" class="minutes"></div>
+        <div id="hour" class="hours"></div>
+        <div id="second" class="seconds">
+          <div class="dot">0</div>
+        </div>
+        <div class="center"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

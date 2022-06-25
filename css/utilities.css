@@ -1,0 +1,18 @@
+:root {
+  --background: #e0e0e0;
+  --shadow-dark: #bebebe;
+  --shadow-light: #ffffff;
+  --text-color: #898989;
+  --primary-color: purple;
+  --stage-display: none;
+}
+
+.rise {
+  box-shadow: 20px 20px 60px var(--shadow-dark),
+    -20px -20px 60px var(--shadow-light);
+}
+
+.rise-inset {
+  box-shadow: inset 20px 20px 60px var(--shadow-dark),
+  inset -20px -20px 60px var(--shadow-light);
+}
