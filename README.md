@@ -1,2 +1,3 @@
 # NeoClock
-Neomorphic Clock
+
+Neumorphism Clock
